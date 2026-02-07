@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main()
+{
+    int n =6;
+    cout<<"\npattern print\n";
+    
+    for (size_t i = 0; i <n; i++)
+    {
+        for (size_t j = 0; j < n-i-1; j++)
+        {
+            cout<<" ";
+        }
+        for (size_t j = 0; j <=i; j++)
+        {
+            cout<<"*";
+        }
+        if(i>=1)
+        {
+            for (size_t j = 0; j<=i-1; j++)
+            {
+                cout<<"*";
+            }
+        }
+        cout<<"\n";
+    }
+    
+}
