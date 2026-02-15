@@ -6,3 +6,5 @@
 //x^0 =x, x^x= 0, x^y = y^x,
 // Sum of n natural number -> n(n+1)]/2
 //Sum of square of n natural number - >[n(n+1)(2n+1)] / 6
+
+//sum of 0 to n even number --> m*(m+1), where m=n/2;
